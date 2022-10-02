@@ -2,14 +2,37 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-}
-h1,
-p {
-    text-align: center;
     font-family: Outfit;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    max-width: 21rem;
+    margin: auto;
+    border-radius: 2rem;
+
+}
+img {
+    max-width: 21rem;
+    border-radius:2rem;
+}
+.text {
+    text-align: center;
+}
+.text>p {
+    margin: 0 2rem;
+}
+
+/* --second code --
+ h1,
 p {
-    font-size: 15px;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
     margin: 2rem 4rem;
     padding-bottom: 2rem;
     
@@ -27,3 +50,4 @@ img {
     margin:1.5rem ;
     border-radius: 1em;
 }
+/*
