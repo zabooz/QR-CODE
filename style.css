@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+  
+}
+h1,
+p {
+    text-align: center;
+    font-family: Outfit;
+    margin: 0;
+}
+p {
+    font-size: 15px;
+    padding-bottom: 2rem;
+    margin: 2rem 4rem;
+}
+.container {
+    max-width: 25rem;
+    margin: auto;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+img {
+    max-width: 22rem;
+    margin:1.5rem ;
+    border-radius: 1em;
+}
+.img {
+    display: flex;
+    justify-content: space-evenly;
+}
