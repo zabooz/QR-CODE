@@ -1,53 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     font-family: Outfit;
+
 }
-.container {
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+h1 {
+    text-align: center;
+    margin: 1rem 1.2rem;
+}
+p {
+    font-size: 1rem;
+    opacity: .6;
+    margin: 0 3rem;
+    text-align: center;
+
+
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    padding: 2rem;
-    max-width: 21rem;
-    margin: 8rem auto;
-    border-radius: 2rem;
+    max-width: 24rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+footer {
+position: absolute;
+bottom: 0;
 
 }
-img {
-    max-width: 21rem;
-    border-radius:2rem;
-}
-.text {
-    text-align: center;
-}
-.text>p {
-    margin: 0 2rem;
-}
-
-/* --second code --
- h1,
-p {
-    text-align: center;
-}
-p {
-    font-size: 1rem;
-    margin: 2rem 4rem;
-    padding-bottom: 2rem;
-    
-}
-.container {
-    max-width: 25rem;
-    margin: 8rem auto;
-    background-color: white;
-    border-radius: 2rem;
-}
-
-img {
-    max-width: 22rem;
-    min-width: 5rem;
-    margin:1.5rem ;
-    border-radius: 1em;
-}
-/*
